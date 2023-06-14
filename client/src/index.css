@@ -1,0 +1,17 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  ul{
+    text-align: right;
+    text-decoration: none;
+  }
+  li{
+    display: inline;
+    padding:10px
+  }
+  input{
+    padding:5px;
+    margin:5px;
+  }

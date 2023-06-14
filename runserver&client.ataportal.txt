@@ -1,0 +1,5 @@
+ install npm i -D nodemon concurrently 
+ include this inside the scripts at serverside package.json or create a common package.json
+ "server": "nodemon server.js",
+    "client":"npm start --prefix client",
+    "dev":"concurrently \"npm run server\" \"npm run client\" "

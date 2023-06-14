@@ -6,7 +6,7 @@ const Jwt = require('jsonwebtoken')
 const middleware = require('./middleware')
 const cors = require('cors')
 app.use(express.json())
-app.use(cors({origin:'*'}))
+app.use(cors({origin:'http://localhost:3000'}))
 mongoose.connect('mongodb+srv://jeyamaha98:jeyamaha@cluster0.r9yfyga.mongodb.net/userauthenticate', 
 {
 useNewUrlParser: true, 
